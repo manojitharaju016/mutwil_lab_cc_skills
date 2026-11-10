@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Environments / secrets — DO NOT COMMIT
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+.anthropic
+.openai
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Run artifacts (in case anyone tests skills in-tree)
+runs/
+*.log
+
+# Local-only prompt material; keep research prompts outside this repository
+prompt.private*
+*.private.prompt
+references/private/

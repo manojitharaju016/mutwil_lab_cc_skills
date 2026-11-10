@@ -1,0 +1,6 @@
+Extract entities and relationships explicitly supported by the text below.
+Return only a JSON array using the field names in schema_quick_reference.md.
+Use "NA" for missing values and [] when no relationships are found.
+This generic template can be replaced by a private prompt stored outside this repository.
+
+Text: {TEXT}
